@@ -1,0 +1,22 @@
+[project]
+name = "emma-schools"
+version = "0.1.0"
+description = "Automation pipelines for Emma Schools assessment using Deep Research and GPT."
+readme = "README.md"
+authors = [{name = "David Champagne"}]
+requires-python = ">=3.11"
+dependencies = [
+    "openai>=1.14.0",
+    "PyYAML>=6.0",
+    "typer>=0.12.3",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.3",
+    "duckduckgo-search>=6.2.11",
+]
+
+[project.scripts]
+emma = "emma_schools.cli.main:app"
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"

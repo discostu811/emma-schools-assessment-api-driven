@@ -1,0 +1,9 @@
+schools:
+  - name: "West London Free School"
+    slug: "west-london-free-school"
+    phase: "secondary"
+    notes: ""
+  - name: "Kew House School"
+    slug: "kew-house-school"
+    phase: "secondary"
+    notes: ""
